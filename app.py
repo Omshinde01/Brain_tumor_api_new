@@ -12,7 +12,7 @@ import os
 MODEL_PATH = "best_model4.h5"
 IMG_SIZE = 224
 GEMINI_API_KEY = "AIzaSyBB3pSmoqBsSOauVSU4Zq79tPWCVvu_GsQ"
-FILE_ID='1IgfEyB16Fx8w17DonPi2J4S-loBrjEXz'
+FILE_ID='1acoK_L61l-TQIXQRFWvSp-BWVFz91ohi'
 # ✅ FIX: Use new google-genai SDK with current model (gemini-1.5-flash is shut down)
 # Run: pip install google-genai
 gemini_client = google_genai.Client(api_key=GEMINI_API_KEY)
