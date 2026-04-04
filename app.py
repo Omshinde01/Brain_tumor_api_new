@@ -16,7 +16,7 @@ FILE_ID='1IgfEyB16Fx8w17DonPi2J4S-loBrjEXz'
 # ✅ FIX: Use new google-genai SDK with current model (gemini-1.5-flash is shut down)
 # Run: pip install google-genai
 gemini_client = google_genai.Client(api_key=GEMINI_API_KEY)
-GEMINI_MODEL = "gemini-3.0-flash"  # stable, widely available model
+GEMINI_MODEL = "gemini-3-flash"  # stable, widely available model
 
 # ✅ FIX: Lazy-load TensorFlow to avoid crashing if not installed
 @st.cache_resource
